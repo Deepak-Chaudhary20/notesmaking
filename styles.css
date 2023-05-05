@@ -1,0 +1,118 @@
+body{
+    font-family: monospace;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(29,23,59,1) 90%);
+}
+header {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(29,23,59,1) 90%);
+    font-family: monospace;
+}
+.nav-item:hover{
+    background-color: white;
+    color: black;
+}
+.nav-item a:hover{
+    color: black;
+}
+.nav-link a:active{
+    background-color: white;
+    color: black;
+}
+/* login button of the header */
+#login {
+    margin-right: 6px;
+}
+.navbar{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(29,23,59,1) 90%);
+    color: white;
+    border-bottom: 1px solid white;
+}
+/* this is navbar fixed image  */
+.navbar-brand img {
+    border-radius: 30px;
+}
+/* online notes icon button in the navbar  */
+#online{
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+.main-section{
+    height: auto;
+    width: 100%;
+}
+
+.movingsection{
+    font-family: monospace;
+    animation: mymove 2s;
+    position: relative;
+    animation-iteration-count: 1;
+}
+/* @keyframes mymove {
+    from {left: -200px;}
+    to {left: 0px;}
+} */
+
+.letshideit{
+    display: none;
+}
+
+/* This is the link to my websites where I placed everything  */
+#deepak{
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    border: 1px solid white;
+    border-radius: 4px 3px;
+}
+#deepak:hover{
+    color: black;
+    background-color: white;
+}
+/* this section ends here  */
+svg:hover{
+    color: #D9AFD9;
+    color: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+}
+.socialicons a{
+    text-decoration: none;
+    color: white;
+}
+
+/* some media query related to responsivness  */
+@media only screen and (max-width: 600px) {
+    #loginbutton{
+        margin-top: 4px;
+    }
+    #footer-row{
+        margin: 0 auto;
+        width: 90%;
+    }
+  }
+
+/* main section of the page where javascript .charAt() take place  */
+.main-section{
+    padding-top: 10%;
+    margin: 0 auto;
+    width: 90%;
+    min-height: 100vh;
+}
+
+/* footer  */
+#footersection{
+    border-top: 1px solid white;
+}
+
+
+/* MAINLOGING PAGE ALSO INCLUDE THE ABOVE CSS CODE TO THE MAIN SECTION CODE WILL START FORM THERE  */
+
+/*!----------------------------------MAINLOGING PAGE CSS CODE START FROM THERE-----------------------------------!  */
+
+#usersection{
+    height: auto;
+}
